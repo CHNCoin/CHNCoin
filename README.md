@@ -8,9 +8,9 @@ CHNCoin - 一个基于Litecoin的新型P2P货币。
 客户端下载地址：
 ===================
 
-- Windows Daemon:
-- Windows 客户端：
-- Linux 客户端： 
+- Windows 客户端：http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Windows-QT.zip/download
+- Windows Daemon：http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Windows-Daemon.zip/download
+- Linux 客户端： http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Linux.zip/download
 
 官方网站：
 ===================
@@ -19,7 +19,7 @@ CHNCoin - 一个基于Litecoin的新型P2P货币。
 
 
 
-
+===================
 CNCoin - a lite version of Litecoin used scrypt as a proof of work scheme.
  - 60 seconds block targets
  - subsidy halves in 2628k blocks (5 years)
@@ -30,10 +30,9 @@ CNCoin - a lite version of Litecoin used scrypt as a proof of work scheme.
 Download Client：
 ===================
 
-- Windows Daemon:
-- Windows QT Client:
-- Linux QT Client: 
-
+- Windows QT Client: http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Windows-QT.zip/download
+- Windows Daemon: http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Windows-Daemon.zip/download
+- Linux Client: http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Linux.zip/download
 Official Sites:
 ===================
 - Homepage: chncoin.org (Coming soon)
