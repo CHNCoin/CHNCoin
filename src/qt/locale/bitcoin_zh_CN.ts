@@ -4,12 +4,12 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Bitcoin</source>
+        <source>About CHNCoin</source>
         <translation>关于CHNCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
+        <source>&lt;b&gt;CHNCoin&lt;/b&gt; version</source>
         <translation>&lt;b&gt;CHNCoin&lt;/b&gt;版本</translation>
     </message>
     <message>
@@ -39,7 +39,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your CHNCoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>这些是你CHNCoin的收款地址。当收款时你可以给出不同的地址，以便追踪不同的支付者。</translation>
     </message>
     <message>
@@ -223,7 +223,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>CHNCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>将关闭软件以完成加密过程。 请您谨记：加密钱包并不是万能的，电脑中毒，您的CHNCoin还是有可能丢失。</translation>
     </message>
     <message>
@@ -278,7 +278,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Bitcoin Wallet</source>
+        <source>CHNCoin Wallet</source>
         <translation>CHNCoin钱包</translation>
     </message>
     <message>
@@ -288,7 +288,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="248"/>
-        <source>Show/Hide &amp;Bitcoin</source>
+        <source>Show/Hide &amp;CHNCoin</source>
         <translation>显示/隐藏 CHNCoin客户端</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show information about Bitcoin</source>
+        <source>Show information about CHNCoin</source>
         <translation>显示CHNCoin的相关信息</translation>
     </message>
     <message>
@@ -413,17 +413,17 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a CHNCoin address</source>
         <translation>向一个CHNCoin地址发送CHNCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="246"/>
-        <source>Modify configuration options for Bitcoin</source>
+        <source>Modify configuration options for CHNCoin</source>
         <translation>设置选项</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Bitcoin window</source>
+        <source>Show or hide the CHNCoin window</source>
         <translation>显示或隐藏CHNCoin客户端窗口</translation>
     </message>
     <message>
@@ -500,12 +500,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="343"/>
         <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Bitcoin client</source>
+        <source>CHNCoin client</source>
         <translation>CHNCoin客户端</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to CHNCoin network</source>
         <translation><numerusform>%n 个到CHNCoin网络的活动连接</numerusform></translation>
     </message>
     <message>
@@ -613,7 +613,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occured. CHNCoin can no longer continue safely and will quit.</source>
         <translation>发生致命错误. CHNCoin客户端的安全存在问题，程序将退出.</translation>
     </message>
 </context>
@@ -639,7 +639,7 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="263"/>
-        <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
+        <source>The user interface language can be set here. This setting will only take effect after restarting CHNCoin.</source>
         <translation>设置语言后，您需重启客户端软件才能生效。</translation>
     </message>
     <message>
@@ -664,7 +664,7 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Bitcoin addresses in the transaction list</source>
+        <source>Whether to show CHNCoin addresses in the transaction list</source>
         <translation>是否在交易清单中显示CHNCoin地址</translation>
     </message>
     <message>
@@ -674,7 +674,7 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
+        <source>This setting will take effect after restarting CHNCoin.</source>
         <translation>需要重启客户端软件才能生效。</translation>
     </message>
 </context>
@@ -732,7 +732,7 @@ Address: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid CHNCoin address.</source>
         <translation>您输入的 &quot;%1&quot; 不是有效的CHNCoin地址.</translation>
     </message>
     <message>
@@ -751,8 +751,8 @@ Address: %4
     <message>
         <location filename="../bitcoin.cpp" line="133"/>
         <location filename="../bitcoin.cpp" line="143"/>
-        <source>Bitcoin-Qt</source>
-        <translation>Bitcoin-Qt</translation>
+        <source>CHNCoin-Qt</source>
+        <translation>CHNCoin-Qt</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="133"/>
@@ -815,12 +815,12 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Bitcoin on system login</source>
+        <source>&amp;Start CHNCoin on system login</source>
         <translation>启动系统时&amp;运行</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Bitcoin after logging in to the system</source>
+        <source>Automatically start CHNCoin after logging in to the system</source>
         <translation>系统启动后自动运行CHNCoin客户端软件</translation>
     </message>
     <message>
@@ -908,7 +908,7 @@ Address: %4
     </message>
     <message>
         <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a CHNCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>请输入CHNCoin地址 (例如: CNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
@@ -954,7 +954,7 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the CHNCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>自动在路由器中打开CHNCoin端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
@@ -1006,7 +1006,7 @@ Address: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CHNCoin network after a connection is established, but this process has not completed yet.</source>
         <translation>现在显示的消息可能是过期的. 在连接上CHNCoin网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成.</translation>
     </message>
     <message>
@@ -1123,7 +1123,7 @@ Address: %4
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Bitcoin debug window</source>
+        <source>CHNCoin debug window</source>
         <translation>调试窗口</translation>
     </message>
     <message>
@@ -1206,7 +1206,7 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <source>Open the CHNCoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
         <translation>在当前数据目录打开调试日志文件. 大文件，需要等待几秒.</translation>
     </message>
     <message>
@@ -1231,7 +1231,7 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
+        <source>Welcome to the CHNCoin RPC console.</source>
         <translation>欢迎来到 RPC 控制台.</translation>
     </message>
     <message>
@@ -1415,7 +1415,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a CHNCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>请输入CHNCoin地址 (例如: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
@@ -1864,12 +1864,12 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the CHNCoin address used to sign the message.</source>
         <translation>请在下面输入消息和签名 (注意不要遗漏换行、空格和缩进符这些看不见的字符) 获取用来签名的CHNCoin地址.</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
+        <source>Verify a message and obtain the CHNCoin address used to sign the message</source>
         <translation>验证消息并获取用来签名的CHNCoin地址</translation>
     </message>
     <message>
@@ -1899,7 +1899,7 @@ Address: %4
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Bitcoin signature</source>
+        <source>Enter CHNCoin signature</source>
         <translation>输入CHNCoin签名</translation>
     </message>
     <message>
@@ -1974,7 +1974,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Bitcoin version</source>
+        <source>CHNCoin version</source>
         <translation>CHNCoin版本</translation>
     </message>
     <message>
@@ -2227,7 +2227,7 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="108"/>
         <source>
-SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+SSL options: (see the CHNCoin Wiki for SSL setup instructions)</source>
         <translation>
 SSL 选项: (SSL 安装教程具体见CHNCoin Wiki)
 </translation>
@@ -2268,12 +2268,12 @@ SSL 选项: (SSL 安装教程具体见CHNCoin Wiki)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  CHNCoin is probably already running.</source>
         <translation>无法给数据目录 %s 加锁。CHNCoin可能已在运行。</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
-        <source>Bitcoin</source>
+        <source>CHNCoin</source>
         <translation>CHNCoin</translation>
     </message>
     <message>
@@ -2323,13 +2323,13 @@ SSL 选项: (SSL 安装教程具体见CHNCoin Wiki)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="135"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>wallet.dat钱包文件加载错误：请升级到最新Bitcoin客户端</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CHNCoin</source>
+        <translation>wallet.dat钱包文件加载错误：请升级到最新CHNCoin客户端</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>钱包文件需要重写：请退出并重新启动Bitcoin客户端</translation>
+        <source>Wallet needed to be rewritten: restart CHNCoin to complete</source>
+        <translation>钱包文件需要重写：请退出并重新启动CHNCoin客户端</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
@@ -2428,7 +2428,7 @@ SSL 选项: (SSL 安装教程具体见CHNCoin Wiki)
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. CHNCoin is probably already running.</source>
         <translation>无法在本机绑定 %s 端口 . CHNCoin客户端软件可能已经在运行.</translation>
     </message>
     <message>
@@ -2540,7 +2540,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong CHNCoin will not work properly.</source>
         <translation>警告：请确定您当前计算机的日期和时间是正确的。CHNCoin将无法在错误的时间下正常工作。</translation>
     </message>
 </context>
