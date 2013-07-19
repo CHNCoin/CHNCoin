@@ -6,8 +6,7 @@
 #define UNUSED
 #endif
 static const char UNUSED *bitcoin_strings[] = {
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"%s, you must set a rpcpassword in the configuration file:\n"
+QT_TRANSLATE_NOOP("bitcoin-core", "%s, you must set a rpcpassword in the configuration file:\n"
 " %s\n"
 "It is recommended you use the following random password:\n"
 "rpcuser=chncoinrpc\n"
@@ -15,43 +14,25 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "(you do not need to remember this password)\n"
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:"
-"@STRENGTH)"),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Cannot obtain a lock on data directory %s.  CHNCoin is probably already "
-"running."),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Detach block and address databases. Increases shutdown time (default: 0)"),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Error: The transaction was rejected.  This might happen if some of the coins "
+QT_TRANSLATE_NOOP("bitcoin-core", "Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Cannot obtain a lock on data directory %s. CHNCoin is probably already running."),
+QT_TRANSLATE_NOOP("bitcoin-core", "Detach block and address databases. Increases shutdown time (default: 0)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Error: The transaction was rejected. This might happen if some of the coins "
 "in your wallet were already spent, such as if you used a copy of wallet.dat "
 "and coins were spent in the copy but not marked as spent here."),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Error: This transaction requires a transaction fee of at least %s because of "
-"its amount, complexity, or use of recently received funds  "),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Execute command when the best block changes (%s in cmd is replaced by block "
-"hash)"),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Number of seconds to keep misbehaving peers from reconnecting (default: "
-"86400)"),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Unable to bind to %s on this computer. CHNCoin is probably already running."),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Warning: -paytxfee is set very high. This is the transaction fee you will "
-"pay if you send a transaction."),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Warning: Please check that your computer's date and time are correct.  If "
-"your clock is wrong CHNCoin will not work properly."),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"You must set rpcpassword=<password> in the configuration file:\n"
+QT_TRANSLATE_NOOP("bitcoin-core", "Error: This transaction requires a transaction fee of at least %s because of "
+"its amount, complexity, or use of recently received funds "),
+QT_TRANSLATE_NOOP("bitcoin-core", "Execute command when the best block changes (%s in cmd is replaced by block hash)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Number of seconds to keep misbehaving peers from reconnecting (default: 86400)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Unable to bind to %s on this computer. CHNCoin is probably already running."),
+QT_TRANSLATE_NOOP("bitcoin-core", "Warning: -paytxfee is set very high. This is the transaction fee you will pay if you send a transaction."),
+QT_TRANSLATE_NOOP("bitcoin-core", "Warning: Please check that your computer's date and time are correct. If your clock is wrong CHNCoin will not work properly."),
+QT_TRANSLATE_NOOP("bitcoin-core", "You must set rpcpassword=<password> in the configuration file:\n"
 "%s\n"
 "If the file does not exist, create it with owner-readable-only file "
 "permissions."),
-QT_TRANSLATE_NOOP("bitcoin-core", ""
-"\n"
-"SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "\n"
+"SSL options: (see the CHNCoin Wiki for SSL setup instructions)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Add a node to connect to and attempt to keep the connection open"),
@@ -77,8 +58,8 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet corrupted"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet requires newer version of CHNCoin"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Error: Transaction creation failed  "),
-QT_TRANSLATE_NOOP("bitcoin-core", "Error: Wallet locked, unable to create transaction  "),
+QT_TRANSLATE_NOOP("bitcoin-core", "Error: Transaction creation failed "),
+QT_TRANSLATE_NOOP("bitcoin-core", "Error: Wallet locked, unable to create transaction "),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error: could not start node"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Failed to listen on any port. Use -listen=0 if you want this."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Fee per KB to add to transactions you send"),
@@ -95,8 +76,8 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Invalid -tor address: '%s'"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Invalid amount for -paytxfee=<amount>: '%s'"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Invalid amount"),
 QT_TRANSLATE_NOOP("bitcoin-core", "List commands"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Listen for JSON-RPC connections on <port> (default: 9332)"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Listen for connections on <port> (default: 9333 or testnet: 19333)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Listen for JSON-RPC connections on <port> (default: 8108)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Listen for connections on <port> (default: 8108 or testnet: 18108)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Loading addresses..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Loading block index..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Loading wallet..."),

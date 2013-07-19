@@ -4,24 +4,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Bitcoin</source>
-        <translation>Apie Bitcoiną</translation>
+        <source>About CHNCoin</source>
+        <translation>Apie CHNCoiną</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;CHNCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CHNCoin&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
-        <source>Copyright © 2009-2012 Bitcoin Developers
+        <source>Copyright © 2009-2012 CHNCoin Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Autorystės teisės© 2009-2012 Bitcoin Developers
+        <translation>Autorystės teisės© 2009-2012 CHNCoin Developers
 DĖMESIO: programa eksperimentinė!
 
 Platinama pagal licenziją MIT/X11, papildomą informaciją rasite faile license.txt arba dokumente pagal nuorodą: http://www.opensource.org/licenses/mit-license.php.
@@ -39,7 +39,7 @@ Platinama pagal licenziją MIT/X11, papildomą informaciją rasite faile license
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your CHNCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Čia yra Jūsų adresai skirti mokėjimams gauti.  Jūs galite skirtingiems žmonėms duoti skirtingus adresus. Tai Jums palengvins kontroliuoti mokėjimus bei padidins anonimiškumą.
     </translation>
     </message>
@@ -211,7 +211,7 @@ Platinama pagal licenziją MIT/X11, papildomą informaciją rasite faile license
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="101"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CHNCOINS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation>ĮSPĖJIMAS: Jei užšifruosite savo piniginę ir prarasite savo slaptažodį, Jūs &lt;b&gt; PRARASITE VISUS SAVO BITKOINUS, &lt;/b&gt;!
 Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
@@ -224,8 +224,8 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas  negali pilnai apsaugoti bitcoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+        <source>CHNCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your chncoins from being stolen by malware infecting your computer.</source>
+        <translation>CHNCoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas  negali pilnai apsaugoti bitcoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="207"/>
@@ -279,7 +279,7 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Bitcoin Wallet</source>
+        <source>CHNCoin Wallet</source>
         <translation>Bitkoinų piniginė</translation>
     </message>
     <message>
@@ -289,7 +289,7 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="248"/>
-        <source>Show/Hide &amp;Bitcoin</source>
+        <source>Show/Hide &amp;CHNCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -364,7 +364,7 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show information about Bitcoin</source>
+        <source>Show information about CHNCoin</source>
         <translation>Rodyti informaciją apie Bitkoiną</translation>
     </message>
     <message>
@@ -414,17 +414,17 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a CHNCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="246"/>
-        <source>Modify configuration options for Bitcoin</source>
+        <source>Modify configuration options for CHNCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Bitcoin window</source>
+        <source>Show or hide the CHNCoin window</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -501,13 +501,13 @@ Ar jūs tikrai norite užšifruoti savo piniginę?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="343"/>
         <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Bitcoin client</source>
+        <source>CHNCoin client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n Bitcoin tinklo aktyvus ryšys</numerusform><numerusform>%n Bitcoin tinklo aktyvūs ryšiai</numerusform><numerusform>%n Bitcoin tinklo aktyvūs ryšiai</numerusform></translation>
+        <source>%n active connection(s) to CHNCoin network</source>
+        <translation><numerusform>%n CHNCoin tinklo aktyvus ryšys</numerusform><numerusform>%n CHNCoin tinklo aktyvūs ryšiai</numerusform><numerusform>%n CHNCoin tinklo aktyvūs ryšiai</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="540"/>
@@ -613,7 +613,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occured. CHNCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -639,7 +639,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="263"/>
-        <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
+        <source>The user interface language can be set here. This setting will only take effect after restarting CHNCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -664,7 +664,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Bitcoin addresses in the transaction list</source>
+        <source>Whether to show CHNCoin addresses in the transaction list</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -674,7 +674,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
+        <source>This setting will take effect after restarting CHNCoin.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -732,7 +732,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid CHNCoin address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -751,7 +751,7 @@ Adresas: %4</translation>
     <message>
         <location filename="../bitcoin.cpp" line="133"/>
         <location filename="../bitcoin.cpp" line="143"/>
-        <source>Bitcoin-Qt</source>
+        <source>CHNCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -814,12 +814,12 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Bitcoin on system login</source>
+        <source>&amp;Start CHNCoin on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Bitcoin after logging in to the system</source>
+        <source>Automatically start CHNCoin after logging in to the system</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -842,7 +842,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="38"/>
-        <source>The address to sign the message with  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>The address to sign the message with  (e.g. CXxXk2YJEtefHsF1rZXV5KTW5M5NqZ7RXE)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -907,8 +907,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a CHNCoin address (e.g. CXxXk2YJEtefHsF1rZXV5KTW5M5NqZ7RXE)</source>
+        <translation>Įveskite bitkoinų adresą (pvz. CXxXk2YJEtefHsF1rZXV5KTW5M5NqZ7RXE)</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="83"/>
@@ -953,8 +953,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Bitcoin kliento maršrutizatoriaus prievadą. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the CHNCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti CHNCoin kliento maršrutizatoriaus prievadą. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="351"/>
@@ -1005,7 +1005,7 @@ Adresas: %4</translation>
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CHNCoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1051,7 +1051,7 @@ Adresas: %4</translation>
     <message>
         <location filename="../overviewpage.cpp" line="110"/>
         <location filename="../overviewpage.cpp" line="111"/>
-        <source>out of sync</source>
+        <source>Out of sync</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1122,7 +1122,7 @@ Adresas: %4</translation>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Bitcoin debug window</source>
+        <source>CHNCoin debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1205,7 +1205,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <source>Open the CHNCoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1230,7 +1230,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
+        <source>Welcome to the CHNCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1285,8 +1285,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="113"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
+        <source>123.456 CNC</source>
+        <translation>123.456 CNC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="144"/>
@@ -1384,8 +1384,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="93"/>
-        <source>The address to send the payment to  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Adresas mokėjimo siuntimui (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to  (e.g. CXxXk2YJEtefHsF1rZXV5KTW5M5NqZ7RXE)</source>
+        <translation>Adresas mokėjimo siuntimui (pvz. CXxXk2YJEtefHsF1rZXV5KTW5M5NqZ7RXE)</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="103"/>
@@ -1414,8 +1414,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a CHNCoin address (e.g. CXxXk2YJEtefHsF1rZXV5KTW5M5NqZ7RXE)</source>
+        <translation>Įveskite bitkoinų adresą (pvz. CXxXk2YJEtefHsF1rZXV5KTW5M5NqZ7RXE)</translation>
     </message>
 </context>
 <context>
@@ -1863,12 +1863,12 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the CHNCoin address used to sign the message.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
+        <source>Verify a message and obtain the CHNCoin address used to sign the message</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1898,7 +1898,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Bitcoin signature</source>
+        <source>Enter CHNCoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1973,8 +1973,8 @@ Adresas: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Bitcoin version</source>
-        <translation>Bitcoin versija</translation>
+        <source>CHNCoin version</source>
+        <translation>CHNCoin versija</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="44"/>
@@ -2008,8 +2008,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Nurodyti pid failą  (pagal nutylėjimą: bitcoind.pid)</translation>
+        <source>Specify pid file (default: chncoind.pid)</source>
+        <translation>Nurodyti pid failą  (pagal nutylėjimą: chncoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="52"/>
@@ -2043,8 +2043,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="63"/>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 8333 arba testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8106 or testnet: 18106)</source>
+        <translation>Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 8106 arba testnet: 18106)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="64"/>
@@ -2153,8 +2153,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="95"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
-        <translation>Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 8332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8108)</source>
+        <translation>Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 8108)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="96"/>
@@ -2204,8 +2204,8 @@ Adresas: %4</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="108"/>
         <source>
-SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL opcijos (žr.e Bitcoin Wiki for SSL setup instructions)</translation>
+SSL options: (see the CHNCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL opcijos (žr.e CHNCoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="111"/>
@@ -2239,12 +2239,12 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
-        <translation>Negali gauti duomenų katalogo %s rakto. Bitcoin tikriausiai jau veikia.</translation>
+        <source>Cannot obtain a lock on data directory %s.  CHNCoin is probably already running.</source>
+        <translation>Negali gauti duomenų katalogo %s rakto. CHNCoin tikriausiai jau veikia.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
-        <source>Bitcoin</source>
+        <source>CHNCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2294,13 +2294,13 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="135"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Bitcoin versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CHNCoin</source>
+        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės CHNCoin versijos</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Bitcoin</translation>
+        <source>Wallet needed to be rewritten: restart CHNCoin to complete</source>
+        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite CHNCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
@@ -2399,7 +2399,7 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. CHNCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2477,7 +2477,7 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=chncoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2503,8 +2503,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Bitcoin, veiks netinkamai.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong CHNCoin will not work properly.</source>
+        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas CHNCoin, veiks netinkamai.</translation>
     </message>
 </context>
 </TS>

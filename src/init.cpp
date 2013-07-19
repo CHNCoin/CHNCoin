@@ -84,7 +84,7 @@ void Shutdown(void* parg)
         printf("CHNCoin exited\n\n");
         fExit = true;
 #ifndef QT_GUI
-        // ensure non UI client get's exited here, but let Bitcoin-Qt reach return 0; in bitcoin.cpp
+        // ensure non UI client get's exited here, but let CHNCoin-Qt reach return 0; in bitcoin.cpp
         exit(0);
 #endif
     }
@@ -285,7 +285,7 @@ std::string HelpMessage()
         "  -?                     " + _("This help message") + "\n";
 
     strUsage += string() +
-        _("\nSSL options: (see the Bitcoin Wiki for SSL setup instructions)") + "\n" +
+        _("\nSSL options: (see the CHNCoin Wiki for SSL setup instructions)") + "\n" +
         "  -rpcssl                                  " + _("Use OpenSSL (https) for JSON-RPC connections") + "\n" +
         "  -rpcsslcertificatechainfile=<file.cert>  " + _("Server certificate file (default: server.cert)") + "\n" +
         "  -rpcsslprivatekeyfile=<file.pem>         " + _("Server private key (default: server.pem)") + "\n" +
